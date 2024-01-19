@@ -13,10 +13,11 @@
         <property name = "hibernate.hbm2ddl.auto">update</property>
         <property name = "hibernate.show_sql">true</property>
         
-        <mapping class = "entities.Animal"/>
         <mapping resource = "animal.hbm.xml"/>
-        
+        <mapping class = "entities.Vehiculo"/>
+        <mapping class = "entities.Modelo"/>
         <mapping class = "entities.Persona"/>
+        
     </session-factory>
 </hibernate-configuration>
 
